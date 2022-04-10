@@ -18,9 +18,29 @@ except TypeError as err:
 
 greenColour = "\x1b[3;32m"#formato hexadecimal
 yellowColour = '\033[1;33m'#formato octal
+redColor= "\033[1;31m"
 endColour = "\033[0m"#finaliza color
 
+# Colores	Texto	Fondo
+# Negro	    30	    40
+# Rojo	    31	    41
+# Verde	    32	    42
+# Amarillo	33	    43
+# Azul	    34	    44
+# Morado	35	    45
+# Cian	    36	    46
+# Blanco	37	    47
 
+
+# Estilos	    Cod. ANSI
+# Sin efecto	        0
+# Negrita	            1
+# Débil	                2
+# Cursiva	            3
+# Subrayado	            4
+# Inverso	            5
+# Oculto	            6
+# Tachado	            7
 
 def recognyze_file():
     archivo = open('document.txt', 'r')
